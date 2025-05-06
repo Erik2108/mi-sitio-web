@@ -1,0 +1,30 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #333;
+padding: 1rem;
+}
+nav ul {
+list-style-type: none;
+display: flex;
+gap: 1em;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+main {
+padding: 2rem;
+}
+form {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+gap: 0.5rem;
+}
+form label, form Input, form textarea { 
+    margin: 0.5ren 0;
+}
